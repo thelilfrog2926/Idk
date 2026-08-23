@@ -1,0 +1,146 @@
+export interface Game {
+  id: string;
+  title: string;
+  url: string;
+  category: string;
+  description: string;
+  thumbnail: string;
+}
+
+export const games: Game[] = [
+  {
+    id: "snow-rider-3d",
+    title: "Snow Rider 3D",
+    url: "https://unblockgamezx.netlify.app/assets/games/snowrider/snowrider?docs.google.com",
+    category: "Racing",
+    description: "Ride your sled down snowy mountains and avoid obstacles!",
+    thumbnail: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=300&fit=crop"
+  },
+  {
+    id: "ragdoll-archers",
+    title: "Ragdoll Archers",
+    url: "https://unblockgamezx.netlify.app/assets/games/ragdollarchers/ragdollarchers?docs.google.com",
+    category: "Action",
+    description: "Battle with ragdoll physics in epic archery combat!",
+    thumbnail: "https://images.unsplash.com/photo-1565992441121-4367c2967103?w=400&h=300&fit=crop"
+  },
+  {
+    id: "yohoho-io",
+    title: "Yohoho.io",
+    url: "https://unblockgamezx.netlify.app/assets/games/yohoho/yohoho?docs.google.com",
+    category: "IO Games",
+    description: "Pirate battle royale! Become the king of the island!",
+    thumbnail: "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?w=400&h=300&fit=crop"
+  },
+  {
+    id: "tomb-of-the-mask",
+    title: "Tomb of the Mask",
+    url: "https://unblockgamezx.netlify.app/assets/games/tombofthemask/tombofthemask?docs.google.com",
+    category: "Arcade",
+    description: "Navigate through ancient tomb mazes at high speed!",
+    thumbnail: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=400&h=300&fit=crop"
+  },
+  {
+    id: "slope",
+    title: "Slope",
+    url: "https://unblockgamezx.netlify.app/assets/games/slope/slope?docs.google.com",
+    category: "Racing",
+    description: "Roll down the endless slope and avoid obstacles!",
+    thumbnail: "https://images.unsplash.com/photo-1614728423169-3f65fd722b7e?w=400&h=300&fit=crop"
+  },
+  {
+    id: "drive-mad",
+    title: "Drive Mad",
+    url: "https://unblockgamezx.netlify.app/assets/games/drivemad/drivemad?docs.google.com",
+    category: "Racing",
+    description: "Navigate crazy obstacle courses with your car!",
+    thumbnail: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400&h=300&fit=crop"
+  },
+  {
+    id: "basketball-random",
+    title: "Basketball Random",
+    url: "https://unblockgamezx.netlify.app/assets/games/basketrandom/basketballrandom?docs.google.com",
+    category: "Sports",
+    description: "Wacky 2-player basketball with random physics!",
+    thumbnail: "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=300&fit=crop"
+  },
+  {
+    id: "ragdoll-hit",
+    title: "Ragdoll Hit",
+    url: "https://unblockgamezx.netlify.app/assets/games/ragdollhit/ragdollhit?docs.google.com",
+    category: "Action",
+    description: "Launch ragdolls and cause maximum destruction!",
+    thumbnail: "https://images.unsplash.com/photo-1511882150382-421056c89033?w=400&h=300&fit=crop"
+  },
+  {
+    id: "minecraft",
+    title: "Minecraft",
+    url: "https://tuffxclient.netlify.app/files/1_1ut13/wasm/tuff_client_offline_wasm?docs.google.com",
+    category: "Sandbox",
+    description: "Build and explore in the classic block world!",
+    thumbnail: "https://images.unsplash.com/photo-1587573089734-599d584d7978?w=400&h=300&fit=crop"
+  },
+  {
+    id: "geometry-dash",
+    title: "Geometry Dash",
+    url: "http://mwmwmwmmwmwmwmwmwmwmwmwmwmwmmwmwmwmwmwmwmwmwmwmwmwmwmwmwwmwmwmw.mwmwmwmwmwmwmmwmwmwmwmwmmwmwmwmwwmwmmwmwmwmwmwmmwmwmwmwmwmwmwm.mwmwmwmmwwmmwwmmwmwmwmwmwmwmwmwmwmwmwmwmwwmmwmwmwmwmwmwmmwwmwmw.mwmwmwmwmwmmwmwmwmwmmwmwmwmwmwwmwmwmwmwmwmwmwmw.kingston.gay/games/clgeometrydashscratch.html?docs.google.com",
+    category: "Rhythm",
+    description: "Jump and fly through dangerous passages!",
+    thumbnail: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=300&fit=crop"
+  },
+  {
+    id: "void-network",
+    title: "Void Network",
+    url: "https://vcsa.dahliaskye.com/s.html",
+    category: "Multiplayer",
+    description: "Connect and play in the void network!",
+    thumbnail: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&h=300&fit=crop"
+  },
+  {
+    id: "infinite-craft",
+    title: "Infinite Craft",
+    url: "http://mwmwmwmmwmwmwmwmwmwmwmwmwmwmmwmwmwmwmwmwmwmwmwmwmwmwmwmwwmwmwmw.mwmwmwmwmwmwmmwmwmwmwmwmmwmwmwmwwmwmmwmwmwmwmwmmwmwmwmwmwmwmwm.mwmwmwmmwwmmwwmmwmwmwmwmwmwmwmwmwmwmwmwmwwmmwmwmwmwmwmwmmwwmwmw.mwmwmwmwmwmmwmwmwmwmmwmwmwmwmwwmwmwmwmwmwmwmwmw.kingston.gay/games/clinfinitecraft.html?docs.google.com",
+    category: "Puzzle",
+    description: "Combine elements to create infinite combinations!",
+    thumbnail: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop"
+  },
+  {
+    id: "other-games",
+    title: "Other Games",
+    url: "https://calcsolver.net/",
+    category: "Collection",
+    description: "Explore more games and tools!",
+    thumbnail: "https://images.unsplash.com/photo-1493711662062-fa541f7f0103?w=400&h=300&fit=crop"
+  }
+];
+
+export const externalLinks = [
+  {
+    id: "tv-channels",
+    title: "TV Channels",
+    url: "https://famelack.com/",
+    description: "Universal TV channel site",
+    icon: "tv"
+  },
+  {
+    id: "friends-site",
+    title: "Friend's Site",
+    url: "https://mango-crown.netlify.app/?docs.google.com",
+    description: "Check out our friend's site!",
+    icon: "users"
+  }
+];
+
+export const categories = [
+  "All",
+  "Racing",
+  "Action",
+  "IO Games",
+  "Arcade",
+  "Sports",
+  "Sandbox",
+  "Rhythm",
+  "Multiplayer",
+  "Puzzle",
+  "Collection"
+];
